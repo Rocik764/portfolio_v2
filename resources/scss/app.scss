@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#page-wraper {
+    background: url('/img/my-bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+input, select, textarea {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.25px;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+    }
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+
+    &:before, &:after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+    }
+}
+
+.clearfix {
+    zoom: 1;
+
+    &:before {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.section {
+    color: #fff;
+    width: 55%;
+    right: 10%;
+    left: 35%;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 80px;
+    border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+
+    @media screen and (max-width: 1680px) {
+        color: #fff;
+        width: 65%;
+        right: 5%;
+        left: 30%;
+    }
+
+    @media screen and (max-width: 845px) {
+        width: 94%;
+        right: 3%;
+        left: 3%;
+    }
+}
+
+.section-heading {
+    text-align: center;
+    padding: 80px 45px;
+
+    h2 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .line-dec {
+        width: 60px;
+        height: 3px;
+        background-color: #a43f49;
+        margin: 10px auto;
+    }
+
+    span {
+        margin-top: 5px;
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 0.5px;
+    }
+}
+
+/* Buttons */
+
+.white-button a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #a43f49;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: #a43f49;
+        color: #fff;
+    }
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #a43f49;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+        outline: none;
+        background-color: #a43f49;
+        color: #fff;
+    }
+}
+
+@import "static/about_me";
+@import "static/timeline";
+@import "static/sidebar";
+@import "static/contact";
+@import "static/work_skills";

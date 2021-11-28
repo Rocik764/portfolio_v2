@@ -1,0 +1,50 @@
+section.contact-me {
+    border-bottom: none;
+}
+
+#contact {
+    input {
+        background-color: rgba(250, 250, 250, 0.1);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: #fff;
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    textarea {
+        background-color: rgba(250, 250, 250, 0.1);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: #fff;
+        font-size: 14px;
+        height: 180px;
+        max-height: 220px;
+        line-height: 40px;
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+    }
+}
+
+::placeholder {
+    color: #decfcf;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #decfcf;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #decfcf;
+}
