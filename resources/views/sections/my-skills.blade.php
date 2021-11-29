@@ -22,7 +22,7 @@
                     {{-- BACKEND --}}
                     @include('partials.my-skills-item', [
                         'type' => 'backend',
-                        'image' => 'PHP.png',
+                        'image' => 'php.png',
                         'alt' => 'PHP',
                         'title' => 'PHP',
                     ])
