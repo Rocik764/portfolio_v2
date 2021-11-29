@@ -23,6 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        \URL::forceScheme('https');
         $locale = (array_key_exists(request()->segment(1), config('app.locales'))) ? request()->segment(1) : config('app.default_locale');
         app()->setLocale($locale);
     }

@@ -1,7 +1,7 @@
 <section class="section" data-section="commercial-experience-section">
     <div class="container">
         <div class="section-heading">
-            <h2>Commercial experience</h2>
+            <h2>{{ __('index.experience.title') }}</h2>
             <div class="line-dec"></div>
         </div>
         <div class="cd-timeline">
@@ -14,14 +14,10 @@
                             <i class="fa fa-certificate" aria-hidden="true"></i> Fullstack
                         </span>
                         <span class="timeline-content-info-date">
-                            <i class="fa fa-calendar-o" aria-hidden="true"></i> 23.09.2021 - Present
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i> {{ __('index.experience.freelancing.time') }}
                         </span>
                     </div>
-                    <p>
-                        Working for two clients:<br>
-                        client from Canada - creating web application using Laravel, Inertia.js and Vue 3.<br>
-                        client from Poland - creating web application using just Laravel
-                    </p>
+                    <p>{!! __('index.experience.freelancing.content') !!}</p>
                     <ul class="content-skills">
                         <li>HTML5</li>
                         <li>CSS3</li>
@@ -44,7 +40,7 @@
                             <i class="fa fa-calendar-o" aria-hidden="true"></i> 21.06.2021 - 22.09.2021
                         </span>
                     </div>
-                    <p>My first fullstack job in a software house from Gdańsk. Most of my time spent working solo focused on 2 projects.</p>
+                    <p>{{ __('index.experience.inprox.content') }}</p>
                     <ul class="content-skills">
                         <li>HTML5</li>
                         <li>CSS3</li>

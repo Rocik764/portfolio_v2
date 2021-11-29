@@ -1,31 +1,24 @@
 <section class="section" data-section="education-section">
     <div class="container">
         <div class="section-heading">
-            <h2>Education</h2>
+            <h2>{{ __('index.education.title') }}</h2>
             <div class="line-dec"></div>
         </div>
         <div class="cd-timeline">
             <div class="cd-timeline-block">
                 <div class="cd-timeline-img cd-picture"></div>
                 <div class="cd-timeline-content">
-                    <h2>Gdynia Maritime University</h2>
-                    <p>
-                        Engineering Studies<br>
-                        Profile: IT<br>
-                        Specialization: Web and Mobile Applications
-                    </p>
-                    <span class="cd-date">October 2018 - Present</span>
+                    <h2>{{ __('index.education.university.title') }}</h2>
+                    <p>{!! __('index.education.university.content') !!}</p>
+                    <span class="cd-date">{{ __('index.education.university.date') }}</span>
                 </div>
             </div>
             <div class="cd-timeline-block">
                 <div class="cd-timeline-img cd-location"></div>
                 <div class="cd-timeline-content">
-                    <h2>Complex of Energy Schools in Gdańsk</h2>
-                    <p>
-                        Profile: Computer Science<br>
-                        Title: IT Specialist
-                    </p>
-                    <span class="cd-date">September 2014 - April 2018</span>
+                    <h2>{{ __('index.education.school.title') }}</h2>
+                    <p>{!! __('index.education.school.content') !!}</p>
+                    <span class="cd-date">{{ __('index.education.school.date') }}</span>
                 </div>
             </div>
         </div>

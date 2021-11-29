@@ -1,13 +1,8 @@
-<section class="section my-services" data-section="my-skills">
+<section class="section" data-section="skills-section">
     <div class="container">
         <div class="section-heading">
-            <h2>My skills</h2>
+            <h2>{{ __('index.skills.title') }}</h2>
             <div class="line-dec"></div>
-            <span>
-                Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor.
-                Vestibulum congue leo et tellus aliquam, eu viverra nulla semper.
-                Nullam eu faucibus diam. Donec eget massa ante.
-            </span>
         </div>
         <div class="skills-isotope-wrapper">
             <form class="isotope-toolbar">
@@ -18,7 +13,7 @@
                     <input type="radio" data-type="frontend" name="isotope-filter"><span>Frontend</span>
                 </label>
                 <label>
-                    <input type="radio" data-type="utilities" name="isotope-filter"><span>Utilities</span>
+                    <input type="radio" data-type="utilities" name="isotope-filter"><span>{{ __('index.skills.utilities') }}</span>
                 </label>
             </form>
             <div class="isotope-box">
@@ -137,7 +132,7 @@
                         'alt' => 'vscode',
                         'title' => 'Visual Studio Code',
                     ])
-                    
+
                 </div>
             </div>
         </div>

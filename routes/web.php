@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\Page\{
     PageController,
+    LanguageController,
 };
 /*
 |--------------------------------------------------------------------------
@@ -16,5 +17,6 @@ use \App\Http\Controllers\Page\{
 */
 
 Route::get('/', [PageController::class, 'index'])->name('index');
-Route::get('/change-locale/{lang}', [PageController::class, 'changeLocale'])->name('change-locale');
 Route::post('/contact', [PageController::class, 'contact'])->name('contact');
+Route::get('/change-locale/{lang}', [LanguageController::class, 'changeLocale'])->name('change-locale');
+Route::get('/images/{path}', [App\Http\Controllers\Page\ImageController::class, 'show'])->where('path', '.*')->name('image');

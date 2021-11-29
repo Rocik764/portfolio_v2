@@ -8,14 +8,26 @@ section.my-work .section-heading {
     width: 100%;
     margin: auto;
 }
+
 .skills-isotope-wrapper {
     position: relative;
     width: 100%;
     margin: auto;
 }
 
-
 .isotope-toolbar {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    p {
+        border-top: 1px solid #fff;
+        padding-top: 15px;
+    }
+
+    a {
+        color: #fff;
+    }
+
     @media screen and (max-width: 845px) {
         margin-bottom: 20px;
     }
@@ -27,11 +39,10 @@ section.my-work .section-heading {
     span {
         text-transform: capitalize;
         display: inline-block;
-        margin-right: 15px;
-        padding-bottom: 3px;
+        padding: .5rem;
+        border-bottom: 2px solid #ffffff;
         font-size: 15px;
         font-weight: 700;
-        border-bottom: 2px solid transparent;
         transform: ease-in-out 0.5s;
         cursor: pointer;
     }
@@ -47,20 +58,6 @@ section.my-work .section-heading {
     width: 100%;
 }
 
-.isotope-toolbar {
-    text-align: center;
-    margin: 10px;
-
-    p {
-        border-top: 1px solid #fff;
-        padding-top: 15px;
-    }
-
-    a {
-        color: #fff;
-    }
-}
-
 .isotope-item {
     position: relative;
     width: 48%;
@@ -68,7 +65,7 @@ section.my-work .section-heading {
     padding-bottom: 30px;
     margin: 1% 1% 30px;
 
-    @media screen and (max-width: 845px) {
+    @media screen and (max-width: 1400px) {
         width: 94%;
         margin: 3%;
         border-bottom: none;
@@ -94,10 +91,10 @@ section.my-work .section-heading {
 }
 
 figure.snip1321 {
-    overflow: hidden;
     text-align: center;
     -webkit-perspective: 50em;
     perspective: 50em;
+    min-height: 250px;
 
     * {
         -webkit-box-sizing: padding-box;
