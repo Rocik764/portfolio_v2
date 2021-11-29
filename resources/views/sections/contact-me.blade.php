@@ -24,7 +24,7 @@
                                 <span id="subject_error" style="color: #ff2828" role="alert"></span>
                             </div>
                             <div class="col-md-12 mb-4">
-                                <textarea disabled name="message" rows="6" class="form-control" id="message" placeholder="{{ __('index.contact.input.message') }}"></textarea>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="{{ __('index.contact.input.message') }}"></textarea>
                                 <span id="message_error" style="color: #ff2828" role="alert"></span>
                             </div>
                             <div class="col-md-12">
