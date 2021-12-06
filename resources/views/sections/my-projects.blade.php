@@ -128,6 +128,21 @@
                             </figcaption>
                         </figure>
                     </div>
+                    <div class="isotope-item" data-type="non-commercial">
+                        <figure class="snip1321">
+                            @include('partials.image-conversion', [
+                                'path' => 'img/projects/laravel-portfolio.jpg',
+                                'alt' => 'laravel-portfolio',
+                            ])
+                            <figcaption>
+                                <a href="https://github.com/Rocik764/portfolio_v2" target="_blank">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                                <h4>{{ __('index.projects.noncommercial.sixth.title') }}</h4>
+                                <span>{{ __('index.projects.noncommercial.sixth.content') }}</span>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>

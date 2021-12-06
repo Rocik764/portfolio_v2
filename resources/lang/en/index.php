@@ -17,7 +17,7 @@ return [
     'experience.freelancing.content' => 'Working for two clients:<br>
             client from Canada - creating web application using Laravel, Inertia.js and Vue<br>
             client from Poland - creating web application using just Laravel',
-    'experience.inprox.content' => 'My first fullstack job in a software house from Gdańsk. Most of my time spent working solo focused on 2 projects.',
+    'experience.inprox.content' => 'My first fullstack job in a software house from Gdańsk. Most of my time spent working solo focused on 2 projects using Laravel.',
 
     'education.title' => 'Education',
     'education.university.title' => 'Gdynia Maritime University',
@@ -50,6 +50,8 @@ return [
     'projects.noncommercial.fourth.content' => 'My first university project using Spring Boot',
     'projects.noncommercial.fifth.title' => 'Spring Boot with React - JWT Authentication',
     'projects.noncommercial.fifth.content' => 'My project in which I\'ve used Spring Security using JWT based, stateless authentication',
+    'projects.noncommercial.sixth.title' => 'Portfolio',
+    'projects.noncommercial.sixth.content' => 'My newest portfolio made in Laravel',
 
     'contact.title' => 'Contact Me',
     'contact.input.name' => 'Your name...',

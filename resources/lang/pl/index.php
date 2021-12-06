@@ -17,7 +17,7 @@ return [
     'experience.freelancing.content' => 'Praca dla dwóch klientów:<br>
             klient z Kanady - tworzenie aplikacji webowej przy użyciu Laravel\'a, Inertia.js oraz Vue<br>
             klient z Polski - tworzenie aplikacji webowej przy użyciu Laravel\'a',
-    'experience.inprox.content' => 'Moja pierwsza praca jako fullstack, w jednym z software house\'ów z Gdańska. Większość czasu spędziłem pracując samotnie nad dwoma projektami.',
+    'experience.inprox.content' => 'Moja pierwsza praca jako fullstack, w jednym z software house\'ów z Gdańska. Większość czasu spędziłem pracując samotnie nad dwoma projektami przy użyciu Laravela.',
 
     'education.title' => 'Edukacja',
     'education.university.title' => 'Uniwersytet Morski w Gdyni',
@@ -50,6 +50,8 @@ return [
     'projects.noncommercial.fourth.content' => 'Mój pierwszy projekt na uniwersytecie stworzony w Spring Boot.',
     'projects.noncommercial.fifth.title' => 'Spring Boot i React - JWT Authentication',
     'projects.noncommercial.fifth.content' => 'Mój projekt, w którym użyłem Spring Security i oparte na JWT uwierzytelnianie bezstanowe',
+    'projects.noncommercial.sixth.title' => 'Portfolio',
+    'projects.noncommercial.sixth.content' => 'Moje najnowsze portfolio stworzone w Laravelu',
 
     'contact.title' => 'Kontakt',
     'contact.input.name' => 'Twoje imię...',
