@@ -23,9 +23,9 @@
                                 'alt' => 'laravel-web-app',
                             ])
                             <figcaption>
-{{--                                <a href="https://github.com/Rocik764/spring-security-jwt-with-react" target="_blank">--}}
-{{--                                    <i class="fa fa-github"></i>--}}
-{{--                                </a>--}}
+                                <a href="https://gitfront.io/r/rocik/75ba6b89c197af200623f84b85d7c3ce1ed266f5/tradesman-canada-website-ct4/" target="_blank">
+                                    <i class="fa fa-github"></i>
+                                </a>
                                 <a href="https://ct-4-v1.herokuapp.com/" target="_blank">
                                     <i class="fa fa-globe"></i>
                                 </a>
@@ -41,14 +41,29 @@
                                 'alt' => 'laravel-training-web-app',
                             ])
                             <figcaption>
-{{--                                <a href="https://github.com/Rocik764/spring-security-jwt-with-react" target="_blank">--}}
-{{--                                    <i class="fa fa-github"></i>--}}
-{{--                                </a>--}}
+                                <a href="https://gitfront.io/r/rocik/9197ae50aff5d14e357196afa7f1cdbaf00df9db/training-polish-app/" target="_blank">
+                                    <i class="fa fa-github"></i>
+                                </a>
                                 <a href="https://salty-retreat-77378.herokuapp.com/" target="_blank">
                                     <i class="fa fa-globe"></i>
                                 </a>
                                 <h4>{{ __('index.projects.commercial.second.title') }}</h4>
                                 <span>{{ __('index.projects.commercial.second.content') }}</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="isotope-item" data-type="commercial">
+                        <figure class="snip1321">
+                            @include('partials.image-conversion', [
+                                'path' => 'img/projects/pl_web_app_old_version.png',
+                                'alt' => 'laravel-training-web-app-old',
+                            ])
+                            <figcaption>
+                                <a href="https://gitfront.io/r/rocik/68502860d222617da6dc6cb986014f041236b846/training-polish-app-old-version/" target="_blank">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                                <h4>{{ __('index.projects.commercial.third.title') }}</h4>
+                                <span>{{ __('index.projects.commercial.third.content') }}</span>
                             </figcaption>
                         </figure>
                     </div>

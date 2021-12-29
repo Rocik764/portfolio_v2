@@ -12,7 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix.scripts([
-            'resources/js/isotope.min.js',
+            'resources/js/isotope.pkgd.min.js',
             'resources/js/custom.js'
     ], 'public/js/script.js')
     .sass('resources/scss/app.scss', 'public/css')

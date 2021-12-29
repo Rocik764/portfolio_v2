@@ -7,13 +7,13 @@
         <div class="skills-isotope-wrapper">
             <form class="isotope-toolbar">
                 <label>
-                    <input type="radio" data-type="backend" checked="" name="isotope-filter"><span>Backend</span>
+                    <input id="backend-button" type="radio" data-type="backend" checked="" name="isotope-filter"><span>Backend</span>
                 </label>
                 <label>
-                    <input type="radio" data-type="frontend" name="isotope-filter"><span>Frontend</span>
+                    <input id="frontend-button" type="radio" data-type="frontend" name="isotope-filter"><span>Frontend</span>
                 </label>
                 <label>
-                    <input type="radio" data-type="utilities" name="isotope-filter"><span>{{ __('index.skills.utilities') }}</span>
+                    <input id="utilities-button" type="radio" data-type="utilities" name="isotope-filter"><span>{{ __('index.skills.utilities') }}</span>
                 </label>
             </form>
             <div class="isotope-box">
