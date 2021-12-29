@@ -78,7 +78,6 @@
         $(document).ready(function() {
             $('#frontend-button').click();
             let interval = setInterval(function() {
-                console.log('dupa')
                 $('#backend-button').click();
                 clearInterval(interval);
             }, 500);
